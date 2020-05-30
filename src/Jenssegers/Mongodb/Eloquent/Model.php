@@ -366,6 +366,7 @@ abstract class Model extends BaseModel
             }
         }
 
+
         $this->attributes[$column] = array_values($current);
 
         $this->syncOriginalAttribute($column);
